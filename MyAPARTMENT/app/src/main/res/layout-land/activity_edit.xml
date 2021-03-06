@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/CancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="PressCancel"
+        android:text="@string/button_cancel"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SaveButton"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="80dp"
+        android:background="#5d5c5c"
+        android:onClick="PressSave"
+        android:text="@string/button_save"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/StockNameView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="309dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/PriceOfStockView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/NumOfStockView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="314dp"
+        android:layout_marginRight="314dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/PriceOfStockView" />
+
+    <EditText
+        android:id="@+id/PriceOfStockView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginRight="312dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/NumOfStockView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/StockNameView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/stock_name"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/StockNameView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="73dp"
+        android:text="@string/stock_price"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/PriceOfStockView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginStart="32dp"
+        android:text="@string/stock_stocks"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/NumOfStockView"
+        app:layout_constraintEnd_toStartOf="@+id/NumOfStockView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

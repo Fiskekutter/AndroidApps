@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AktieApp</string>
+    <string name="my_stock">Mine Aktier:</string>
+    <string name="purchased_at">Købt ved:</string>
+    <string name="button_details">+</string>
+    <string name="button_back">Tilbage</string>
+    <string name="button_edit">Ændre</string>
+    <string name="button_cancel">Fortryd</string>
+    <string name="button_save">Gem</string>
+    <string name="stock_name">Navn:</string>
+    <string name="stock_price">Købspris:</string>
+    <string name="stock_stocks">#Aktier:</string>
+    <string name="sector_name">Sektor:</string>
+    <string name="technology_button">Teknologi</string>
+    <string name="healthcare_button">Sundhedspleje</string>
+    <string name="basic_materials_button">Råstoffer</string>
+    <string name="stock_name_detail">Navn:</string>
+    <string name="stock_price_detail">Købspris:</string>
+    <string name="stock_stocks_detail">#Aktier:</string>
+    <string name="sector_name_detail">Sektor:</string>
+    <string name="Healthcare">Sundhedspleje</string>
+    <string name="Technology">Teknologi</string>
+    <string name="Basic_materials">Råstoffer</string>
+    <string name="Warning">Noget mangler!</string>
+    <string name="Refresh">Opdater</string>
+    <string name="stock_name_overview">Navn</string>
+    <string name="stock_latest_overview">Værdi</string>
+    <string name="stock_change_overview">Differens</string>
+    <string name="stock_latest_detail">Værdi:</string>
+    <string name="stock_timestamp_detail">Updateret:</string>
+</resources>

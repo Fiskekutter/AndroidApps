@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StockApp</string>
+    <string name="my_stock">My Stocks:</string>
+    <string name="purchased_at">Purchased at:</string>
+    <string name="button_details">+</string>
+    <string name="button_back">Back</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+    <string name="stock_name">Name:</string>
+    <string name="stock_price">Price:</string>
+    <string name="stock_stocks">#Stocks:</string>
+    <string name="sector_name">Sector:</string>
+    <string name="technology_button">Technology</string>
+    <string name="healthcare_button">Healthcare</string>
+    <string name="basic_materials_button">Basic Materials</string>
+    <string name="stock_name_detail">Name:</string>
+    <string name="stock_price_detail">Price:</string>
+    <string name="stock_stocks_detail">#Stocks:</string>
+    <string name="sector_name_detail">Sector:</string>
+    <string name="Healthcare">Healthcare</string>
+    <string name="Technology">Technology</string>
+    <string name="Basic_materials">Basic Materials</string>
+    <string name="Warning">Something is missing!</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Delete">Delete</string>
+    <string name="stock_symbol">Symbol</string>
+    <string name="stock_name_overview">Name</string>
+    <string name="stock_latest_overview">Value</string>
+    <string name="stock_change_overview">Difference</string>
+    <string name="stock_latest_detail">Value:</string>
+    <string name="stock_timestamp_detail">Updated:</string>
+</resources>
